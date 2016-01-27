@@ -1,0 +1,172 @@
+#bord{
+  border: 2px solid grey;
+  border-radius: 10px;
+  width: 25%;
+  height: 1%;
+  margin: 4% 10%;
+  padding: 0%;
+  overflow: hidden;
+  opacity: 0.5;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+
+#bord:hover {
+  border: 2px solid grey;
+  border-radius: 10px;  
+  width: 25%;
+  height: 1%;
+  margin: 4% 10%;
+  padding: 0%;
+  overflow: hidden;
+  z-index: 1;
+  transition: all 0.4s ease-in-out  0s;
+  opacity: 1;
+
+}
+
+#image1 {
+ 
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  padding: auto;
+}
+
+/*Transizione per la didascalia*/
+figure {
+position: relative;
+display: block;
+border: 0px solid grey;
+margin: 0;
+border-radius: 10px;
+}
+
+figcaption {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-bottom-left-radius: 8px; 
+  border-bottom-right-radius: 8px;
+  font-size: .7em;
+  color: #fff;
+  background-color: rgba(0,0,0,.7);
+  opacity: 0;
+  -webkit-transition: opacity .5s ease-in-out;
+  -moz-transition: opacity .5s ease-in-out;
+  -o-transition: opacity .5s ease-in-out;
+  transition: opacity .5s ease-in-out;
+}
+
+figure:hover figcaption {
+  opacity: 1;
+}
+
+figcaption * {
+  padding: 0 10px;
+  margin: 0;
+}
+figcaption *:first-child {
+  padding-top: 5px;
+}
+figcaption *:last-child {
+  padding-bottom: 5px;
+}
+/* Impostiamo i custom font degli headers e caption */
+figcaption, h1, h2, h3, h4 {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+/*Fine transizione per la didascalia*/
+
+
+#bord2{
+  border: 2px solid grey;
+ /* background: -moz-linear-gradient(top, #737070 0%, #CECCCC 20%); */
+  /*margin-top: 5%;*/
+  border-radius: 10px;
+  width: 25%;
+  height: 1%;
+  margin: 4% 10%;
+  padding: 0%;
+  overflow: hidden;
+  opacity: 0.5;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+
+#bord2:hover {
+  border: 2px solid grey;
+  border-radius: 10px;  
+  width: 25%;
+  height: 1%;
+  margin: 4% 10%;
+  padding: 0%;
+  overflow: hidden;
+  z-index: 1;
+  transition: all 0.4s ease-in-out  0s;
+  opacity: 1;
+
+}
+
+#bord3{
+  border: 2px solid grey;
+ /* background: -moz-linear-gradient(top, #737070 0%, #CECCCC 20%); */
+  /*margin-top: 5%;*/
+  border-radius: 10px;
+  float: right;
+  width: 25%;
+  height: 1%;
+  margin: -38.4% 30%;
+  padding: 0%;
+  overflow: hidden;
+  opacity: 0.5;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+
+#bord3:hover {
+  border: 2px solid grey;
+  border-radius: 10px;  
+  float: right;
+  width: 25%;
+  height: 1%;
+  margin: -38.4% 30%;
+  padding: 0%;
+  overflow: hidden;
+  z-index: 1;
+  transition: all 0.4s ease-in-out  0s;
+  opacity: 1;
+
+}
+
+#bord4{
+  border: 2px solid grey;
+ /* background: -moz-linear-gradient(top, #737070 0%, #CECCCC 20%); */
+  /*margin-top: 5%;*/
+  border-radius: 10px;
+  float: right;
+  width: 25%;
+  height: 1%;
+  margin: -19.2% 30%;
+  padding: 0%;
+  overflow: hidden;
+  opacity: 0.5;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+
+#bord4:hover {
+  border: 2px solid grey;
+  border-radius: 10px;  
+  float: right;
+  width: 25%;
+  height: 1%;
+  margin: -19.2% 30%;
+  padding: 0%;
+  overflow: hidden;
+  z-index: 1;
+  transition: all 0.4s ease-in-out  0s;
+  opacity: 1;
+
+}

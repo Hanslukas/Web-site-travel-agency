@@ -1,0 +1,196 @@
+#navig { 
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  height: 50px;
+  background: #919191;
+  background: -moz-linear-gradient(top, #616161 0%, #616161 20%); /* firefox */
+  background: -webkit-linear-gradient(top, #616161 0%, #616161 20%); /*chrome and safari*/
+  background: -o-linear-gradient(top, #616161 0%,#616161 20%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #616161 0%,#616161 20%); /* IE10+ */
+  position: relative;
+  
+}
+
+#navig ul li { 
+  display: inline; 
+}
+
+#navig a {
+  display: block;
+  float: left;
+  height: 32px;
+  margin: 0;
+  padding: 18px 30px 0 30px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  color: #FFFFFF;
+
+
+}
+
+#navig a:hover { 
+  opacity: 0.5;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+
+/*Serve per l'icona home*/
+#image {
+   width: 26px;
+  height: 26px;
+
+}
+#area {
+  float: right;
+}
+
+#logo {
+  background: url("../images/travel-agency-logo.png") no-repeat scroll 0 0;
+  width: 5%;
+}
+/*
+#lock {
+  margin-right: 4%;
+  margin-top: -1.01%;
+  float: right;
+}
+
+#imageLock{
+   width: 64px;
+  height: 64px;
+
+}*/
+
+
+/*Footer*/
+html, body, #container { height: 100%; }
+body > #container { 
+  height: auto; 
+  min-height: 100%; 
+  margin-top: -40%;
+}
+
+.footer {
+ clear: both;
+ position: relative;
+ margin: auto;
+ height: 6em;
+ background-color: #f2f2f2;
+}
+
+.footer p {
+  font-size: 11px;
+  color: #818181;
+  margin: 5px auto;
+}
+
+#content { padding-bottom: 3em; }
+
+/* END-FOOTER*/
+
+
+
+
+/*Menu laterale*/
+
+
+ul#menu { /*Riquadro*/
+  background: #919191;
+  background: -moz-linear-gradient(top, #616161 0%, #616161 20%); /* firefox */
+  background: -webkit-linear-gradient(top, #616161 0%, #616161 20%); /*chrome and safari*/
+  background: -o-linear-gradient(top, #616161 0%,#616161 20%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #616161 0%,#616161 20%); /* IE10+ */
+  border: 1px solid #ccc;
+  width: 15%;
+  height: 70%;
+  margin-top: 10%;
+  margin-left: -17%;
+
+
+   /* border-radius */
+  border-radius: 0 10px 10px 0;
+  -moz-border-radius: 0 10px 0 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+     
+  /* box-shadow */
+  box-shadow: 5px 5px 5px #888;
+  -moz-box-shadow: 2px 2px 5px #888;
+  -webkit-box-shadow: 2px 2px 5px #888;
+
+  transition-property: margin-left;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+     
+  -webkit-transition-property: margin-left;
+  -webkit-transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease;
+    
+  -moz-transition-property: margin-left;
+  -moz-transition-duration: 0.5s;
+  -moz-transition-timing-function: ease;
+     
+  -o-transition-property: margin-left;
+  -o-transition-duration: 0.5s;
+  -o-transition-timing-function: ease;
+
+
+
+}
+ul#menu li#navigation { height: 150px; }
+ 
+ul#menu li#navigation ul li {
+      float: left;
+      width: 150px;
+}
+ 
+ul#menu li#tab {
+    font-weight: bold;
+    line-height: 30px;
+    height: 30px;
+}
+
+ul#menu li#navigation ul li a:hover {
+  transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+}
+
+ul#menu:hover{
+   margin-left: -9;
+
+}
+
+#navigation ul li { 
+  display: inline;
+
+}
+
+#navigation a {
+  display: block;
+  float: left;
+  height: 64px;
+  margin: 0;
+  padding: 18px 30px 0 30px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+/*Serve per le immagini dei continenti nel menu laterale*/
+#imageLateral {
+   width: 64px;
+  height: 64px;
+}
+#container {
+  height:200px;
+  position: absolute;
+  width: 80%;
+  margin-left: 18%;
+}

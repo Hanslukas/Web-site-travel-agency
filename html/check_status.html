@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+
+<head> 
+<meta charset="utf-8">
+
+  <title> Check status </title>
+  <link type="text/css" rel="stylesheet" href="../css/main.css">
+    <link type="text/css" rel="stylesheet" href="../css/check_status.css">
+  <link rel="shortcut icon" href="../images/travel-agency-logo.png">
+
+<script type="text/javascript"> 
+function checkForm(form) 
+{ 
+  if(!form.number.checked || !form.reservaion.checked) { 
+    form.number.focus(); 
+    form.reservaion.focus();
+    form.className = "inputError"; //Do un nome all'errore che gestisco con il css. Se non c'è errore className è vuoto
+  return false; 
+  } 
+    return true; 
+}
+</script>
+
+</head>
+
+<body>
+
+<!--Menu header-->
+<header id="header" class="header">
+<nav id="navig" class="navig"> 
+  <a id="logo" href="index.html"></a>
+<ul>
+   <li><a href='index.html'><span><img src="../images/home.png" id="image"></span></a></li>
+   <li><a href='all_destination.html'><span>All destination</span></a></li>
+   <li><a href='#'><span>Prenotazioni</span></a></li>
+   <li><a href='#'><span>Chi siamo</span></a></li>
+   <li id="area"><a href='login.html'><span>Reserved area</span></a></li>
+</ul>
+</nav>
+<!--
+<div id="lock">
+  <img src="../images/lock.png" id="imageLock">
+</div>-->
+</header>
+<!--Fine Menu header-->
+
+<ul id="menu">
+ <li id="navigation">
+   <ul>
+     <li><a href="#"><img src="../images/africa.png" id="imageLateral"></a></li>
+     <li><a href="#"><img src="../images/america.png" id="imageLateral"></a></li>
+     <li><a href="#"><img src="../images/asia.png" id="imageLateral"></a></li>
+     <li><a href="#"><img src="../images/europa.png" id="imageLateral"></a></li>
+     <li><a href="#"><img src="../images/oceania.png" id="imageLateral"></a></li>
+   </ul>
+ </li>
+</ul>
+
+
+
+<div id="container">
+  <hgroup class="intro">
+  <p><h1>Check status</h1></p>
+  <p><h4>Check the status of your reservation</h4><p>
+  <img src="../images/loupe.gif" id="loupe">
+  <hr id="main">
+  <div class="desc">
+
+    <div id="login">
+  <form id="form" action="login.php" method="post" onsubmit="return checkForm(this)">
+    <fieldset id="bord">
+        <img src="../images/id_card.png" id="id_card">
+      <input type="text" id="docNumb" placeholder="Document number" class="border_radius" required name="number">
+      <input type="text" id="reser" placeholder="Reservation number" class="border_radius" required name="reservation"><br><br>
+      <input type="submit" value="Check" class="button">
+    </fieldset>
+  </form>
+
+</div>
+  </div>
+  <hr id="list">
+
+</hgroup>
+
+
+</div>
+
+
+
+<div class="footer">
+  <br>
+  <p><img src="../images/airplane.png"> Copyright Â© 2011-2012 CSSButton.me </p>
+  <p>Designed by Caleb Ogden in California</p>
+  
+</div>
+
+
+</body>
+
+</html>
